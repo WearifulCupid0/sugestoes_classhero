@@ -1,0 +1,20 @@
+{
+  "name": "classhero_login_endpoint",
+  "version": "1.0.0",
+  "description": "Ideia para melhorar a pagina de login do ClassHero",
+  "main": "index.js",
+  "author": "GuiFeuser",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
